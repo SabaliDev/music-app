@@ -1,6 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+function Button() {
+  return (
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Press
+    </button>
+  );
+}
 
 function App() {
   return (
@@ -19,6 +27,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Button />
     </div>
   );
 }
